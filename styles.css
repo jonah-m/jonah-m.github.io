@@ -63,6 +63,47 @@ h2 {
 .about-text {
     text-align: center;
 }
+#contact {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #3289a8;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+.contact-content p {
+    margin-bottom: 1rem;
+}
+
+.contact-content ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.contact-content li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.contact-content a {
+    color: #3289a8;
+}
+
+.contact-content a:hover {
+    text-decoration: underline;
+}
 
 .project {
     display: flex;
